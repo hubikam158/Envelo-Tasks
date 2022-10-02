@@ -18,6 +18,7 @@ W przypadku, gdy często musimy dodawać/usuwać elementy, lepsza pod względem 
 2.
 
    private boolean search(int[] numbers, int x) {
+   
         int indexLow = 0;
         int indexHigh = numbers.length - 1;
 
