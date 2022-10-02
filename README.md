@@ -16,8 +16,8 @@ Ponadto, tablica jest dobrym rozwiązaniem gdy głównym zastosowaniem jest odcz
 W przypadku, gdy często musimy dodawać/usuwać elementy, lepsza pod względem optymalizacji będzie lista.
 
 2.
-    private boolean search(int[] numbers, int x) {
 
+   private boolean search(int[] numbers, int x) {
         int indexLow = 0;
         int indexHigh = numbers.length - 1;
 
